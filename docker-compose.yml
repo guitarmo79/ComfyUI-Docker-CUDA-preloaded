@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: akitaonrails-comfyui:latest
+    image: atheist60-ComfyUI-custom:latest
     container_name: comfyui
     ports:
       - "8188:8188"
